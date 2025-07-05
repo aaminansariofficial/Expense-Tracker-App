@@ -1,206 +1,102 @@
-# \# 💰 Expense Tracker App
+# 💰 Expense Tracker App
 
-# 
+An Android-based Expense Tracker app built using Kotlin and Firebase for tracking income, expenses, and visualizing data with charts.
 
-# An Android-based Expense Tracker app built using Kotlin and Firebase for tracking income, expenses, and visualizing data with charts.
+This app helps users manage their finances by logging daily expenses and income, categorizing them, and analyzing spending habits through interactive graphs. It supports user login, real-time database storage, and a clean UI built with Material Components.
 
-# 
+---
 
-# This app helps users manage their finances by logging daily expenses and income, categorizing them, and analyzing spending habits through interactive graphs. It supports user login, real-time database storage, and a clean UI built with Material Components.
+## ✨ Features
 
-# 
+- 📥 Add, edit, and delete income & expense entries  
+- 📊 Visualize spending via pie & bar charts (using MPAndroidChart)  
+- 🔐 Firebase Authentication (Google & Email login)  
+- ☁️ Firebase Realtime Database for data storage  
+- ⚙️ Settings tab with logout & UI preference options  
+- 📱 Clean and user-friendly Android UI  
+- 📦 Includes a release-ready APK (ExpenseTrackerApp.apk)
 
-# ---
+---
 
-# 
+## 🛠️ Technologies Used
 
-# \## ✨ Features
+- Kotlin  
+- Android Studio  
+- Firebase Realtime Database  
+- Firebase Authentication  
+- MPAndroidChart library  
+- Material Design Components  
+- XML (layouts & UI)
 
-# 
+---
 
-# \- 📥 Add, edit, and delete income \& expense entries  
+## ⚙️ Requirements
 
-# \- 📊 Visualize spending via pie \& bar charts (using MPAndroidChart)  
+- Android Studio (Electric Eel or higher recommended)  
+- Gradle version 7.3.3 or compatible  
+- Android device or emulator (API 24 or higher)  
+- Google Firebase account (for testing with your own DB)
 
-# \- 🔐 Firebase Authentication (Google \& Email login)  
+---
 
-# \- ☁️ Firebase Realtime Database for data storage  
+## 📦 Setup Instructions
 
-# \- ⚙️ Settings tab with logout \& UI preference options  
+### 1. Clone the repository
+```bash
+git clone https://github.com/aaminansariofficial/Expense-Tracker-App.git
+```
 
-# \- 📱 Clean and user-friendly Android UI  
+### 2. Open in Android Studio
+- File → Open → Select the project folder
 
-# \- 📦 Includes a release-ready APK (ExpenseTrackerApp.apk)
+### 3. Sync Gradle & Build the App
+- Wait for Gradle sync to complete  
+- Clean Project → Rebuild Project
 
-# 
+### 4. Connect Firebase (Optional if testing with your own)
+- Tools → Firebase → Connect to Firebase  
+- Replace google-services.json with your own (if needed)
 
-# ---
+---
 
-# 
+## ▶️ Run the App
 
-# \## 🛠️ Technologies Used
+- Select an emulator or connected Android device  
+- Click ▶️ Run (or Shift + F10) in Android Studio
 
-# 
+✅ You can also download and install the APK directly:
 
-# \- Kotlin  
+📦 [ExpenseTrackerApp.apk](./ExpenseTrackerApp.apk)
 
-# \- Android Studio  
+---
 
-# \- Firebase Realtime Database  
+## 📊 Charts & Analytics
 
-# \- Firebase Authentication  
+This app uses the MPAndroidChart library to display:
+- 🟠 Pie charts for category-wise spending
+- 🔵 Bar charts for date-wise income & expenses
 
-# \- MPAndroidChart library  
+---
 
-# \- Material Design Components  
+## 👨‍💻 Author
 
-# \- XML (layouts \& UI)
+- Aamin Ansari  
+  🔗 GitHub: https://github.com/aaminansariofficial  
+  🔗 LinkedIn: https://linkedin.com/in/aaminansari  
 
-# 
 
-# ---
+---
 
-# 
+## 📄 License
 
-# \## ⚙️ Requirements
+This project is licensed under the MIT License.  
+You are free to use, modify, and share it with proper credit.
 
-# 
+---
 
-# \- Android Studio (Electric Eel or higher recommended)  
+## 🙏 Acknowledgments
 
-# \- Gradle version 7.3.3 or compatible  
-
-# \- Android device or emulator (API 24 or higher)  
-
-# \- Google Firebase account (for testing with your own DB)
-
-# 
-
-# ---
-
-# 
-
-# \## 📦 Setup Instructions
-
-# 
-
-# \### 1. Clone the repository
-
-# ```bash
-
-# git clone https://github.com/aaminansariofficial/Expense-Tracker-App.git
-
-# ```
-
-# 
-
-# \### 2. Open in Android Studio
-
-# \- File → Open → Select the project folder
-
-# 
-
-# \### 3. Sync Gradle \& Build the App
-
-# \- Wait for Gradle sync to complete  
-
-# \- Clean Project → Rebuild Project
-
-# 
-
-# \### 4. Connect Firebase (Optional if testing with your own)
-
-# \- Tools → Firebase → Connect to Firebase  
-
-# \- Replace google-services.json with your own (if needed)
-
-# 
-
-# ---
-
-# 
-
-# \## ▶️ Run the App
-
-# 
-
-# \- Select an emulator or connected Android device  
-
-# \- Click ▶️ Run (or Shift + F10) in Android Studio
-
-# 
-
-# ✅ You can also download and install the APK directly:
-
-# 
-
-# 📦 \[ExpenseTrackerApp.apk](./ExpenseTrackerApp.apk)
-
-# 
-
-# ---
-
-# 
-
-# \## 📊 Charts \& Analytics
-
-# 
-
-# This app uses the MPAndroidChart library to display:
-
-# \- 🟠 Pie charts for category-wise spending
-
-# \- 🔵 Bar charts for date-wise income \& expenses
-
-# 
-
-# ---
-
-# 
-
-# \## 👨‍💻 Author
-
-# 
-
-# \- Aamin Ansari  
-
-# &nbsp; 🔗 GitHub: https://github.com/aaminansariofficial  
-
-# &nbsp; 🔗 LinkedIn: https://linkedin.com/in/aaminansari  
-
-
-
-
-
-# ---
-
-# 
-
-# \## 📄 License
-
-# 
-
-# This project is licensed under the MIT License.  
-
-# You are free to use, modify, and share it with proper credit.
-
-# 
-
-# ---
-
-# 
-
-# \## 🙏 Acknowledgments
-
-# 
-
-# \- Firebase Documentation  
-
-# \- MPAndroidChart Library  
-
-# \- Android Developers Guide  
-
-# \- Special thanks to faculty for review and support
-
-
-
+- Firebase Documentation  
+- MPAndroidChart Library  
+- Android Developers Guide  
+- Special thanks to faculty for review and support
