@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Home item on the left -->
+    <item
+        android:id="@+id/nav_transaction"
+        android:icon="@drawable/wallet_icon"
+        android:title="List"
+        app:cnb_iconColor="@color/orange"
+        app:cnb_backgroundColor="#40FF9F1C" />
+
+    <!-- Spacer item to help center the Account item -->
+    <item
+        android:id="@+id/blank_left"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom" />
+
+    <!-- Account item in the center -->
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/user_account_icon"
+        android:title="Account"
+        app:cnb_iconColor="@color/turquoise"
+        app:cnb_backgroundColor="#402EC4B6" />
+
+    <!-- Another spacer item to adjust the positioning -->
+    <item
+        android:id="@+id/blank_right"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom" />
+
+    <!-- Settings item on the right -->
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/setting_icon"
+        app:cnb_iconColor="@color/gray"
+        app:cnb_backgroundColor="#D3D3D3"
+        android:title="Settings" />
+
+</menu>

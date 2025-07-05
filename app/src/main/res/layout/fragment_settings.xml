@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/upperLayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/upper_layout_background">
+
+                <!-- Settings TextView -->
+                <TextView
+                    android:id="@+id/settingsTextId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Settings"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:spacing="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/upperLayout">
+
+                <!-- ExportData Option -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_export_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    app:cardElevation="4dp"
+                    app:cardCornerRadius="12dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="0.5dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/file_export_svgrepo_com"
+                            android:contentDescription="Export Data" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="Export Data"
+                            android:textAppearance="?attr/textAppearanceListItem"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppinsmedium"/>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- About Us Option -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    app:cardElevation="4dp"
+                    app:cardCornerRadius="12dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="0.5dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/baseline_info_outline_24"
+                            android:contentDescription="About Us Icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:text="About App"
+                            android:textAppearance="?attr/textAppearanceListItem"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppinsmedium"/>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Feedback Form Section -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    app:cardElevation="4dp"
+                    app:cardCornerRadius="12dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="0.5dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Feedback Title -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Feedback"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:gravity="center"
+                            android:paddingBottom="8dp" />
+
+                        <!-- Feedback Input Field -->
+                        <EditText
+                            android:id="@+id/feedback_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:hint="Enter Your Feedback To Help The Developer."
+                            android:background="@drawable/rounded_edittext"
+                            android:padding="12dp"
+                            android:gravity="top|start"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray"
+                            android:fontFamily="@font/poppinsregular" />
+
+                        <!-- Submit Button -->
+                        <Button
+                            android:id="@+id/submit_feedback_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="@color/cyan"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Submit Feedback"
+                            android:textColor="@color/black"
+                            app:cornerRadius="20dp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Contact with Developer Section -->
+                <TextView
+                    android:id="@+id/contact_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:text="Contact with Developer"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <!-- Gmail Link -->
+                    <LinearLayout
+                        android:id="@+id/gmail_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/gmail"
+                            android:contentDescription="Gmail Icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gmail"
+                            android:textColor="@color/orange_red"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:paddingTop="4dp" />
+                    </LinearLayout>
+
+                    <!-- Instagram Link -->
+                    <LinearLayout
+                        android:id="@+id/instagram_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/instagram"
+                            android:contentDescription="Instagram Icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Instagram"
+                            android:textColor="@color/magenta"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:paddingTop="4dp" />
+                    </LinearLayout>
+
+                    <!-- Telegram Link -->
+                    <LinearLayout
+                        android:id="@+id/telegram_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/telegram"
+                            android:contentDescription="Telegram Icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telegram"
+                            android:textColor="@color/dodger_blue"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:paddingTop="4dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

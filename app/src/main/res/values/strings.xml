@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Expense Tracker App</string>
+    <string name="webclientid">671686295618-6qbvtj56trgf4oguush5ep6pdp3vn8d3.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
