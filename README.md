@@ -96,7 +96,17 @@ You are free to use, modify, and share it with proper credit.
 
 ## 🙏 Acknowledgments
 
-- Firebase Documentation  
-- MPAndroidChart Library  
-- Android Developers Guide  
-- Special thanks to faculty for review and support
+This project was built as a **learning exercise** by studying and adapting an open-source Android expense tracker application. The original codebase served as a foundation, which I explored, modified, and extended to deepen my understanding of Kotlin, Firebase, and Android development.
+
+**Key modifications and contributions:**
+- Integrated Firebase Authentication (Google & Email login) on top of the original structure
+- Customized the UI to use Material Design Components
+- Extended chart analytics using MPAndroidChart
+- Refactored and restructured code with assistance from AI tools (ChatGPT, GitHub Copilot)
+- Added release APK and setup documentation
+
+**References & tools used:**
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [MPAndroidChart by PhilJay](https://github.com/PhilJay/MPAndroidChart)
+- [Android Developers Guide](https://developer.android.com/docs)
+- AI coding assistants (ChatGPT, GitHub Copilot) for code understanding and refactoring
