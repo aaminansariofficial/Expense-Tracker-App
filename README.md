@@ -13,6 +13,32 @@ This app helps users manage their finances by logging daily expenses and income,
   <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/splash_screen.gif" width="280" alt="Splash Screen"/>
 </p>
 
+### 📱 App Screens
+
+<p align="center">
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/login_page.jpg" width="260" alt="Login Page"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/signup_page.jpg" width="260" alt="Signup Page"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/forgot_password_page.jpg" width="260" alt="Forgot Password"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/account_and_charts_page.jpg" width="260" alt="Account & Charts"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/bar_graph_page.jpg" width="260" alt="Bar Graph"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/pie_chart_page.jpg" width="260" alt="Pie Chart"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/main_menu_and_list_page.jpg" width="260" alt="Main Menu"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/settings_page.jpg" width="260" alt="Settings"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/export_data_page.jpg" width="260" alt="Export Data"/>
+</p>
+
 ---
 
 ## ✨ Features
