@@ -6,6 +6,15 @@ This app helps users manage their finances by logging daily expenses and income,
 
 ---
 
+## 📸 Screenshots
+
+### 🎬 Splash Screen
+<p align="center">
+  <img src="https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/screenshots/splash_screen.gif" width="280" alt="Splash Screen"/>
+</p>
+
+---
+
 ## ✨ Features
 
 - 📥 Add, edit, and delete income & expense entries  
