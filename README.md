@@ -66,10 +66,9 @@ git clone https://github.com/aaminansariofficial/Expense-Tracker-App.git
 
 ✅ You can also download and install the APK directly:
 
-📦 [Download Expense Tracker App APK](./Expense%20Tracker%20App.apk)
+📦 [Download Expense Tracker App APK](https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/Expense%20Tracker%20App.apk)
 
----
-
+----
 ## 📊 Charts & Analytics
 
 This app uses the MPAndroidChart library to display:
