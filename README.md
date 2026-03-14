@@ -101,7 +101,7 @@ git clone https://github.com/aaminansariofficial/Expense-Tracker-App.git
 
 ✅ You can also download and install the APK directly:
 
-📦 [Download Expense Tracker App APK](https://github.com/aaminansariofficial/Expense-Tracker-App/raw/master/Expense%20Tracker%20App.apk)
+📦 [Download Expense Tracker App APK](https://github.com/aaminansariofficial/Expense-Tracker-App/releases/download/v1.0/Expense.Tracker.App.apk)
 
 ----
 ## 📊 Charts & Analytics
